@@ -1,0 +1,29 @@
+/*登录页面的样式*/
+.btn-box{
+  text-align: center;
+  margin:2rem 0;
+}
+.btn-default{
+  padding: 1rem 2rem;
+  background: #d26465;
+  color: #fff;
+  font-size: 1.4rem;
+  border-radius: 1.5rem;
+}
+.container .page-1{
+    padding: 2rem;
+}
+.container .page-1 .tit{
+    display: block;
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+.container .page-1 input[type="text"]{
+   border:0;
+   padding: 1rem 0;
+   font-size: 1.4rem;
+   width: 99%;
+}
+.container .page-1 .check{
+  padding-top: 1rem;
+}

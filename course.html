@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0 user-scalable=1" />
+	<meta name="keywords" content="课程表"/>
+	<meta name="description" content="课程表" />
+	<title>课程表</title>
+	<link rel="stylesheet" href="js/layui/css/layui.css">
+	<link rel="stylesheet" type="text/css" href="css/course.css">
+</head>
+<body>
+	<h1 class="title" style="color:#d26465;font-weight: bold;font-size: 200%; text-align:center;background-color: #fbf2f3;padding:4px 0;">第<span>11</span>周</h1>
+	
+	<!-- 表格课程代码 -->
+<table class="desk_table">
+	
+<!-- 一个星期的时间 -->
+		<tr class="tr_color weekday row"> 
+
+		<td>节数</td>
+		<td>周一</td>  
+		<td>周二</td>  
+		<td>周三</td>  
+		<td>周四</td>  
+		<td>周五</td>  
+		<td>周六</td>  
+		<td>周日</td>  
+		</tr>  
+
+
+<!-- 第1,2节课程 -->
+		<tr class="row">
+			<td class="tr_color">1</td>
+			<td rowspan="2">&nbsp;</td>
+			<td rowspan="2">&nbsp;</td>
+			<td rowspan="2">&nbsp;</td>
+			<td rowspan="2">&nbsp;</td>
+			<td rowspan="2">&nbsp;</td>
+			<td rowspan="2">&nbsp;</td>
+			<td rowspan="2">&nbsp;</td>
+ 			</tr>
+			<tr><td class="tr_color">2</td></tr>
+
+
+<!-- 第3,4节课程 -->
+        <tr class="row">
+            <td class="tr_color">3</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            </tr>
+            <tr><td class="tr_color">4</td></tr>
+
+
+<!-- 第5,6节课程 -->
+
+        <tr class="row">
+            <td class="tr_color">5</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            </tr>
+            <tr><td class="tr_color">6</td></tr>
+
+
+
+<!--第7,8节课程  -->
+        <tr class="row">
+            <td class="tr_color">7</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            </tr>
+            <tr><td class="tr_color">8</td></tr>
+
+
+<!-- 第9,10节课程 -->
+
+        <tr class="row">
+            <td class="tr_color">9</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            </tr>
+            <tr><td class="tr_color">10</td></tr>
+
+<!-- 第11,12节课程 -->
+        <tr class="row">
+            <td class="tr_color">11</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            </tr>
+            <tr><td class="tr_color">12</td></tr>
+</table>
+
+
+<!-- 列表课程 -->
+<div id="course_list" style="display:none;">
+
+<div class="layui-collapse">
+	<div class="layui-colla-item">
+		<h2 class="layui-colla-title">周一</h2>
+		<div class="layui-colla-content col">
+					<div>
+                        <h3>1、2节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>3、4节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>5、6节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>7、8节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>9、10节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>11、12节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+		</div>
+	</div>
+ </div>
+
+<div class="layui-collapse">
+	<div class="layui-colla-item">
+		<h2 class="layui-colla-title">周二</h2>
+		<div class="layui-colla-content col">
+					<div>
+                        <h3>1、2节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>3、4节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>5、6节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>7、8节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>9、10节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>11、12节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+		</div>
+	</div>
+ </div>
+
+<div class="layui-collapse">
+	<div class="layui-colla-item">
+		<h2 class="layui-colla-title">周三</h2>
+		<div class="layui-colla-content col">
+					<div>
+                        <h3>1、2节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>3、4节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>5、6节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>7、8节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>9、10节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>11、12节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+		</div>
+	</div>
+ </div>
+
+<div class="layui-collapse">
+	<div class="layui-colla-item">
+		<h2 class="layui-colla-title">周四</h2>
+		<div class="layui-colla-content col">
+					<div>
+                        <h3>1、2节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>3、4节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>5、6节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>7、8节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>9、10节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>11、12节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+		</div>
+	</div>
+ </div>
+
+
+<div class="layui-collapse">
+	<div class="layui-colla-item">
+		<h2 class="layui-colla-title">周五</h2>
+		<div class="layui-colla-content col">
+					<div>
+                        <h3>1、2节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>3、4节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>5、6节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>7、8节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>9、10节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+                    <div>
+                        <h3>11、12节</h3>
+                        <p>思想道德修养与法律基础@文科楼H5-201</p>
+                    </div>
+		</div>
+	</div>
+ </div>
+
+ <div class="layui-collapse">
+	<div class="layui-colla-item">
+		<h2 class="layui-colla-title">周六</h2>
+		<div class="layui-colla-content col">
+					<div>
+                        <h3>1、2节</h3>
+                        <p>&nbsp;</p>
+                    </div>
+                    <div>
+                        <h3>3、4节</h3>
+                        <p>&nbsp;</p>
+                    </div>
+                    <div>
+                        <h3>5、6节</h3>
+                        <p>&nbsp;</p>
+                    </div>
+                    <div>
+                        <h3>7、8节</h3>
+                        <p>&nbsp;</p>
+                    </div>
+                    <div>
+                        <h3>9、10节</h3>
+                        <p>&nbsp;</p>
+                    </div>
+                    <div>
+                        <h3>11、12节</h3>
+                        <p>&nbsp;</p>
+                    </div>
+		</div>
+	</div>
+ </div>
+
+
+ <div class="layui-collapse">
+	<div class="layui-colla-item">
+		<h2 class="layui-colla-title">周日</h2>
+		<div class="layui-colla-content col">
+					<div>
+                        <h3>1、2节</h3>
+                        <p>&nbsp;</p>
+                    </div>
+                    <div>
+                        <h3>3、4节</h3>
+                       <p>&nbsp;</p>
+                    </div>
+                    <div>
+                        <h3>5、6节</h3>
+                        <p>&nbsp;</p>
+                    </div>
+                    <div>
+                        <h3>7、8节</h3>
+                        <p>&nbsp;</p>
+                    </div>
+                    <div>
+                        <h3>9、10节</h3>
+                        <p>&nbsp;</p>
+                    </div>
+                    <div>
+                        <h3>11、12节</h3>
+                        <p>&nbsp;</p>
+                    </div>
+		</div>
+	</div>
+ </div>
+
+</div>
+<!-- 列表课程结束-->
+
+<!--添加课程的弹出窗口 -->
+	<div id="add_course" style="display:none;">
+        <ul class="layer-1">
+            <li>
+                <span>课名:</span>
+                <input type="text" name="course_name"/>
+            </li>
+            <li>
+            	<span class="">星期:</span>
+                <select name="weekday" lay-verify="quiz" >
+				  <option value="">星期天数</option>
+				  <option value="1">周一</option>
+				  <option value="2">周二</option>
+				  <option value="3">周三</option>
+				  <option value="4">周四</option>
+				  <option value="5">周五</option>
+				  <option value="6">周六</option>
+				  <option value="7">周日</option>
+				</select>   
+            </li>
+            <li>
+            	<span class="">节数:</span>
+                <select name="course_num" lay-verify="quiz" >
+				  <option value="">选择节数</option>
+				  <option value="1">1,2</option>
+				  <option value="2">3,4</option>
+				  <option value="3">5,6</option>
+				  <option value="4">7,8</option>
+				  <option value="5">9,10</option>
+				  <option value="6">11,12</option>
+				</select>   
+            </li>
+            
+            <li>
+                <span class="">地点:</span>
+                <input type="text" name="course_place"/>
+            </li>
+        </div>  
+    </div>
+<!--添加课程的弹出窗口 结束-->
+
+<!-- 三个按钮 -->
+<div class="desk_btn">
+<div class="layui-btn-group">
+
+  <button class="layui-btn layui-btn-small  layui-btn-primary" id="table_btn">表格形式</button>
+  <button class="layui-btn layui-btn-small  layui-btn-primary" id="list_btn">列表形式</button>
+  <button class="layui-btn layui-btn-small  layui-btn-primary" id="load_course">重置课表</button>
+<!--   <button class="layui-btn layui-btn-small  layui-btn-primary" id="add_btn">添加课程</button> -->
+</div>
+</div>
+<!-- 三个按钮结束 -->
+
+
+<script src="js/layui/layui.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/jquery-cookie/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/course.js"></script>
+
+
+</body>
+</html>
+
+	
