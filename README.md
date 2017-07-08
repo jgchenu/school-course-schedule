@@ -1,2 +1,3 @@
 # school-course-schedule
 深圳大学网页课程表前端页面，包含前后端获取ajax完整代码
+使用了layui跟jquery框架，如果想要体验完整功能，下载layui代码包放置于js文件夹下即可
