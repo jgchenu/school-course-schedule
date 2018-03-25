@@ -5,3 +5,4 @@
 <h3>项目地址:http://chenjianguang.com/kebiao</h3>
 
 ![image](https://github.com/jgchenu/school-course-schedule/blob/master/1.png)
+![image](https://github.com/jgchenu/school-course-schedule/blob/master/2.png)
