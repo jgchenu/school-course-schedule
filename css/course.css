@@ -1,130 +1,186 @@
+html {
+    font-size: 43.75%;
+}
 
-	html{
-		font-size: 43.75%;
-	}
- /*表格课表的样式*/
-	.desk_btn a{
-		color: #666;
-	}
-	.desk_btn{
-		margin: 2rem auto;
-		text-align: center;
-	}
-	.focus{
-		color: #449eb6;
-	}
-	.weekday td{
-		width:10rem;
-		background: #f6f9f9;
-		text-align: center;
-	}
-	.weekday td:first-child{
-		width: 11rem;
-	}
-	
-	.desk_table{
-		border: none;
-		border-collapse: separate;
-		border-spacing: .2rem;
-	}
-	.desk_table td{
-		text-align: center;
-        border-radius: .5rem;
-	}
-	.tr_color{
-		 text-align:center;
-		 color:#94a6b4;
-		 background:#f6f9f9;
-	}
 
-	/*课程的颜色表*/
-	.color1{ 
-		background: #79e876; 
-		color:#ffffff;
-	}
-	.color2{ 
-		background: #adbeff; 
-		color:#ffffff;
-	}
-	.color3{  
-		background: #f9a0b4; 
-		color:#ffffff;	
-	}
-	.color4{
-		background: #ffdf62; 
-		color:#ffffff;
-	}
-	.color5{ 
-		background: #fdc081; 
-		color:#ffffff;
-	}
-	.color6{
-		background: #c1ec5a; 
-		color:#ffffff;
-	}
-	.color7{
-		background: #d5aef5; 
-		color:#ffffff;
-	}
-	.color8{
-		background: #c2b4f6; 
-		color:#ffffff;
-	}
-	.color9{
-		background:#5fe58a;
-		color:#ffffff;
-	}
+/*表格课表的样式*/
 
- /*添加课程窗口的样式*/
-	#add_course{
-		width:300px;
-	}
-	#add_course li{
-		margin: 1rem;
-	}
-	#add_course li input{
-		border:0;
-		border-bottom:1px solid #666;
-		padding: .5rem .5rem;
-	}
-	#add_course span{
-		margin-right: 2rem;
-	}
-	.hide{
-	  display: none;
-	}
+.desk_btn a {
+    color: #666;
+}
 
+.desk_btn {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.focus {
+    color: #449eb6;
+}
+
+.weekday td {
+    width: 10rem;
+    background: #f6f9f9;
+    text-align: center;
+}
+
+.weekday td:first-child {
+    width: 11rem;
+}
+
+.desk_table {
+    border: none;
+    border-collapse: separate;
+    border-spacing: .2rem;
+}
+
+.desk_table td {
+    text-align: center;
+    border-radius: .5rem;
+}
+
+.tr_color {
+    text-align: center;
+    color: #94a6b4;
+    background: #f6f9f9;
+}
+
+
+/*课程的颜色表*/
+
+.color1 {
+    background: #79e876;
+    color: #ffffff;
+}
+
+.color2 {
+    background: #adbeff;
+    color: #ffffff;
+}
+
+.color3 {
+    background: #f9a0b4;
+    color: #ffffff;
+}
+
+.color4 {
+    background: #ffdf62;
+    color: #ffffff;
+}
+
+.color5 {
+    background: #fdc081;
+    color: #ffffff;
+}
+
+.color6 {
+    background: #c1ec5a;
+    color: #ffffff;
+}
+
+.color7 {
+    background: #d5aef5;
+    color: #ffffff;
+}
+
+.color8 {
+    background: #c2b4f6;
+    color: #ffffff;
+}
+
+.color9 {
+    background: #5fe58a;
+    color: #ffffff;
+}
+
+.color10 {
+    background: hsla(292, 85%, 67%, 0.50);
+    color: #fff;
+}
+
+.color11 {
+    background: rgba(249, 77, 102, 0.5);
+    color: #ffffff;
+}
+.color12{
+    background:#E74856;
+    opacity: .6;
+    color:#fff;
+}
+.color13{
+    background:#0099BC;
+    color:#fff;
+    opacity: .4;
+}
+.color14{
+    background:#0078D7;
+    color:#fff;
+    opacity: .3;
+}
+.color15{
+    background:#E3008C;
+    color:#fff;
+    opacity: .5;
+}
+.color16{
+    background:#00B7C3;
+    color:#fff;
+    opacity: .5;
+}
+
+/*添加课程窗口的样式*/
+
+#add_course {
+    width: 300px;
+}
+
+#add_course li {
+    margin: 1rem;
+}
+
+#add_course li input {
+    border: 0;
+    border-bottom: 1px solid #666;
+    padding: .5rem .5rem;
+}
+
+#add_course span {
+    margin-right: 2rem;
+}
+
+.hide {
+    display: none;
+}
 
 
 /*列表样式*/
 
+#course_list h2.layui-colla-title {
+    color: #fff;
+    background: #d55e64;
+    border-radius: 1rem;
+    width: 80%;
+    margin-top: 1rem;
+    text-align: center
+}
 
-	#course_list h2.layui-colla-title{
-	  color: #fff;
-	  background: #d55e64;
-	  border-radius: 1rem;
-	  width:80%;
-	  margin-top: 1rem;
-	  text-align:center
-	}
+#course_list h3 {
+    color: #cb6765;
+}
 
-	#course_list h3{
-	  color: #cb6765;
-	}
+#course_list .cont {
+    background: #fff;
+    margin-top: .5rem;
+    line-height: 1.8;
+}
 
-	#course_list .cont{
-	  background: #fff;
-	  margin-top: .5rem;
-	  line-height: 1.8;
-	}
-	#course_list .layui-colla-content{
-		border-top: none;
-		background: #fff;
-		margin-right:2.5rem;
-	}
-	#course_list .layui-collapse{
-		border:none;
-		padding-left: 2rem;
-	}
+#course_list .layui-colla-content {
+    border-top: none;
+    background: #fff;
+    margin-right: 2.5rem;
+}
 
- 
+#course_list .layui-collapse {
+    border: none;
+    padding-left: 2rem;
+}
