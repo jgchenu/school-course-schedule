@@ -33,7 +33,7 @@ layui.use(['jquery', 'layer', 'element'], function() {
 
     $.ajax({
         type: 'POST',
-        url: "http://www.szer.me/kcb/course_schedule.php",
+        url: "",
         data: { stu_id: $.cookie("stu_id"), stu_name: $.cookie("stu_name"), status: status, 'token': token },
         dataType: "json",
         success: function(data) {

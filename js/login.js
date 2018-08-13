@@ -18,7 +18,7 @@ layui.use(['layer'], function() {
         if ($.cookie("remember") == "true") {
             $.ajax({
                 type: 'POST',
-                url: "http://www.szer.me/kcb/course_schedule.php",
+                url: "",
                 data: { 'stu_id': $.cookie("stu_id"), 'stu_name': $.cookie("stu_name"), status: status, 'token': token },
                 dataType: "json",
                 success: function(data) {
@@ -40,7 +40,7 @@ layui.use(['layer'], function() {
         if (!code) { window.location.href = "index.html" } else {
             $.ajax({
                 type: 'POST',
-                url: "http://www.szer.me/kcb/api/token.php",
+                url: "",
                 dataType: "json",
                 data: { 'code': code },
                 success: function(data) {
@@ -117,7 +117,7 @@ layui.use(['layer'], function() {
 
         $.ajax({
             type: 'POST',
-            url: "http://www.szer.me/kcb/course_schedule.php",
+            url: "",
             data: { 'stu_id': stu_id, stu_name: stu_name, status: status, 'token': token },
             dataType: "json",
             success: function(data) {
